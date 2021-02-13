@@ -9,7 +9,7 @@ Application examples of GuanRank in deep learning (images), lightGBM and recurre
 
 In each of directory, run simulate_all.sh will return all relevant simulation results.
 
-## delta, delta_RSF_fixed, and delta_cox_fixed
+## delta, delta_RSF_fixed, delta_cox_fixed
 - The *delta* directory simulates how the death rate scale will affect the performance of the ranking algorithm.
 - The *delta_RSF_fixed* directory simulates how the death rate scale will affect the performance of the random survival forest algorithm.
 - The *delta_cox_fixed* directory simulates how the death rate scale will affect the performance of the Cox model.
@@ -20,7 +20,7 @@ In each of directory, run simulate_all.sh will return all relevant simulation re
 - The *simulate_new_feature_example_cox_fixed* directory simulates how the number of features and number of examples will affect the performance of the Cox model.
 Because two parameters are tested in this section, we create a matrix of performance estimations.
 
-## simulate_new_noise_example_fixed, simulate_new_noise_example_RSF, and simulate_new_noise_example_cox_fixed
+## simulate_new_noise_example_fixed, simulate_new_noise_example_RSF, simulate_new_noise_example_cox_fixed
 - The *simulate_new_noise_example_fixed* directory simulates how the noise level and the number of examples will affect the performance of the ranking algorithm.
 - The *simulate_new_noise_example_RSF* directory simulates how the noise level and the number of examples will affect the performance of the random survival forest algorithm.
 - The *simulate_new_noise_example_cox_fixed* directory simulates how the noise level and the number of examples will affect the performance of the Cox model.
@@ -88,6 +88,9 @@ sh bash.sh will run the entire cross-validation
   - Data imputation: lots of missing data especially at early times
   - Data normalization: normalize features
   - Timesteps: the number of timesteps to be used
+
+- Run all experiment for cross-validation:
+sh bash_all.sh
 
 
 
