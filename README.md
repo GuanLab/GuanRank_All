@@ -68,8 +68,7 @@ Deep learning for survival analysis using PyTorch.
 - scikit-survival 0.6
 
 ## Run
-
-```
+...
 $ SEED=42 && echo ${SEED}
 $ python preprocess.py --seed ${SEED} # preprocess and use 10k for training
 $ python main.py --use-gpu --epochs 20 --weighted # use weighted loss
@@ -91,8 +90,7 @@ sh bash.sh will run the entire cross-validation
 
 - Run all experiment for cross-validation:
 sh bash_all.sh
-
-
+...
 
 # README FOR 2D Image EXPERIMENT
 
