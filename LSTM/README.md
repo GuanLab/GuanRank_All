@@ -39,5 +39,5 @@ $ python cIndex.py --seed ${SEED} # R CMD BATCH test_cv.R && mv cIndex.txt cInde
   - Data imputation: lots of missing data especially at early times
   - Data normalization: normalize features
   - Timesteps: the number of timesteps to be used
-- Model:
-  - Tuning: deeper?
+
+
