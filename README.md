@@ -2,42 +2,46 @@
 Application examples of GuanRank in deep learning (images), lightGBM and recurrent neural networks (time-series)
 
 # README FOR SIMULATION EXPERIMENT
-/simulation
+
+## Dependencies
+- python 3.0
+- R packages: "survival", "timeROC", "Bolstad2", "ROCR", "randomForestSRC"
+
 In each of directory, run simulate_all.sh will return all relevant simulation results.
 
 ## delta, delta_RSF_fixed, and delta_cox_fixed
-The *delta* directory simulates how the death rate scale will affect the performance of the ranking algorithm.
-The *delta_RSF_fixed* directory simulates how the death rate scale will affect the performance of the random survival forest algorithm.
-The *delta_cox_fixed* directory simulates how the death rate scale will affect the performance of the Cox model.
+- The *delta* directory simulates how the death rate scale will affect the performance of the ranking algorithm.
+- The *delta_RSF_fixed* directory simulates how the death rate scale will affect the performance of the random survival forest algorithm.
+- The *delta_cox_fixed* directory simulates how the death rate scale will affect the performance of the Cox model.
 
 ## simulate_new_feature_example_fixed, simulate_new_feature_example_RSF_fixed, simulate_new_feature_example_cox_fixed
-The *simulate_new_feature_example_fixed* directory simulates how the number of features and number of examples will affect the performance of the ranking algorithm.
-The *simulate_new_feature_example_RSF_fixed* directory simulates how the number of features and number of examples will affect the performance of the random survival forest algorithm.
-The *simulate_new_feature_example_cox_fixed* directory simulates how the number of features and number of examples will affect the performance of the Cox model.
+- The *simulate_new_feature_example_fixed* directory simulates how the number of features and number of examples will affect the performance of the ranking algorithm.
+- The *simulate_new_feature_example_RSF_fixed* directory simulates how the number of features and number of examples will affect the performance of the random survival forest algorithm.
+- The *simulate_new_feature_example_cox_fixed* directory simulates how the number of features and number of examples will affect the performance of the Cox model.
 Because two parameters are tested in this section, we create a matrix of performance estimations.
 
 ## simulate_new_noise_example_fixed, simulate_new_noise_example_RSF, and simulate_new_noise_example_cox_fixed
-The *simulate_new_noise_example_fixed* directory simulates how the noise level and the number of examples will affect the performance of the ranking algorithm.
-The *simulate_new_noise_example_RSF* directory simulates how the noise level and the number of examples will affect the performance of the random survival forest algorithm.
-The *simulate_new_noise_example_cox_fixed* directory simulates how the noise level and the number of examples will affect the performance of the Cox model.
+- The *simulate_new_noise_example_fixed* directory simulates how the noise level and the number of examples will affect the performance of the ranking algorithm.
+- The *simulate_new_noise_example_RSF* directory simulates how the noise level and the number of examples will affect the performance of the random survival forest algorithm.
+- The *simulate_new_noise_example_cox_fixed* directory simulates how the noise level and the number of examples will affect the performance of the Cox model.
 Because two parameters are tested in this section, we create a matrix of performance estimations.
 
 
 ## simulate_new_noise_example_fixed, simulate_new_noise_example_RSF, simulate_new_noise_example_cox_fixed
-The *simulate_new_noise_example_fixed* directory simulates how the noise level and the number of examples will affect the performance of the ranking algorithm.
-The *simulate_new_noise_example_RSF* directory simulates how the noise level and the number of examples will affect the performance of the random survival forest algorithm.
-The *simulate_new_noise_example_cox_fixed* directory simulates how the noise level and the number of examples will affect the performance of the Cox model.
+- The *simulate_new_noise_example_fixed* directory simulates how the noise level and the number of examples will affect the performance of the ranking algorithm.
+- The *simulate_new_noise_example_RSF* directory simulates how the noise level and the number of examples will affect the performance of the random survival forest algorithm.
+- The *simulate_new_noise_example_cox_fixed* directory simulates how the noise level and the number of examples will affect the performance of the Cox model.
 Because two parameters are tested in this section, we create a matrix of performance estimations.
 
 ## simulate_scaling，simulate_scaling_RSF, simulate_scaling_cox
-The *simulate_scaling* director simulates how the feature scales will affect the performance of the ranking algorithm.
-The *simulate_scaling_RSF* director simulates how the feature scales will affect the performance of the random survival forest algorithm.
-The *simulate_scaling_cox* director simulates how the feature scales will affect the performance of the Cox model.
+- The *simulate_scaling* director simulates how the feature scales will affect the performance of the ranking algorithm.
+- The *simulate_scaling_RSF* director simulates how the feature scales will affect the performance of the random survival forest algorithm.
+- The *simulate_scaling_cox* director simulates how the feature scales will affect the performance of the Cox model.
 
 ## simulation_new, simulation_new_RSF, simulation_new_cox
-The *simulation_new* directory simulates how the noise level and the number of features will affect the performance of the ranking algorithm.
-The *simulation_new_RSF* directory simulates how the noise level and the number of features will affect the performance of the random survival forest algorithm.
-The *simulation_new_cox* directory simulates how the noise level and the number of features will affect the performance of the Cox model.
+- The *simulation_new* directory simulates how the noise level and the number of features will affect the performance of the ranking algorithm.
+- The *simulation_new_RSF* directory simulates how the noise level and the number of features will affect the performance of the random survival forest algorithm.
+- The *simulation_new_cox* directory simulates how the noise level and the number of features will affect the performance of the Cox model.
 Because two parameters are tested in this section, we create a matrix of performance estimations.
 
 
